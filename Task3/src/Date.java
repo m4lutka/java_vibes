@@ -48,7 +48,7 @@ public class Date {
     public static void main(String[] args) {
         // Test constructor and toString()
         Date d1 = new Date(1, 2, 2014);
-        System.out.println(d1); // toString()
+        System.out.println(d1.day); // toString()
 
         // Test Setters and Getters
         d1.setMonth(12);

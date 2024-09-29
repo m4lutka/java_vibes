@@ -148,9 +148,10 @@ public class MyDate {
         if (this.month <= 0) {
             this.year--;
             this.month = 12;
+            this.day = daysInMonth[month-1];
         }
 
-        this.day = daysInMonth[month];
+
 
 
         return new MyDate(this.year, this.month, this.day);
