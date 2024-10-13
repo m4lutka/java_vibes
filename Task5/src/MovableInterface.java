@@ -1,10 +1,10 @@
 // Kibitkin Ilya IT3-2307
 
-public interface MovableInterface {
-    public void moveUp();
-    public void moveDown();
-    public void moveLeft();
-    public void moveRight();
+interface MovableInterface {
+     void moveUp();
+     void moveDown();
+     void moveLeft();
+     void moveRight();
 }
 
 class MovablePoint implements MovableInterface{

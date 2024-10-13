@@ -162,6 +162,12 @@ class Square extends Rectangle{
 
 }
 
+interface Test {
+    static void makeGood() {
+        System.out.println("hmm");
+    }
+}
+
 public class App {
     public static void main(String[] args) {
         Shape s1 = new Circle(5.5, "red", false);  // Upcast Circle to Shape
@@ -217,5 +223,7 @@ public class App {
         System.out.println(sq1.getColor());
         System.out.println(sq1.getSide());
         System.out.println(sq1.getLength());
+
+        Test.makeGood();
     }
 }
