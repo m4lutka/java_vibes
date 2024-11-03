@@ -63,3 +63,6 @@ public class App {
         System.out.println("LS Index: " + linearResult);
     }
 }
+
+
+
